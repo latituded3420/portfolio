@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Salim Shaikh - Full-Stack Software Developer Portfolio">
+    <meta property="og:title" content="Salim Shaikh - Software Developer">
+    <meta property="og:description" content="Portfolio showcasing full-stack projects, backend APIs, and algorithms">
+    <title>Salim Shaikh - Software Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <nav class="nav-container">
+            <div class="logo">S</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="themeToggle" class="theme-toggle"><i class="fas fa-moon"></i></button>
+                <div class="mobile-menu" id="mobileMenu">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="hero">
+        <canvas id="particlesCanvas"></canvas>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up">
+                <div class="hero-badge">Full-Stack Software Developer</div>
+                <h1>Hi, I'm <span class="name-gradient">Salim Shaikh</span></h1>
+                <p class="hero-description">Building scalable applications | Backend Engineer | Problem Solver</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/latituded3420" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/salim-shaikh-a78267281" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:salimshaikh50113@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I'm a passionate software developer specializing in full-stack development with strong backend and database optimization skills. With experience in C++, Python, JavaScript, and modern frameworks, I build robust, scalable applications.</p>
+                    <p>My focus areas include REST APIs, database design, cloud deployment, and solving complex algorithmic problems. I'm continuously learning and contributing to open-source projects.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat" data-aos="zoom-in">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Projects</div>
+                    </div>
+                    <div class="stat" data-aos="zoom-in">
+                        <div class="stat-number">3+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                    <div class="stat" data-aos="zoom-in">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Dedication</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills & Technologies</h2>
+            <div class="skills-container">
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">C++</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Python</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">JavaScript</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">PHP</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Backend & Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">Node.js/Express</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">MongoDB</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">MySQL/PostgreSQL</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">REST APIs</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category" data-aos="fade-up">
+                    <h3>Frontend & Tools</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-name">React</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Git/GitHub</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Docker</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Linux</div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="backend">Backend</button>
+                <button class="filter-btn" data-filter="algorithms">Algorithms</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web"data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3>
+                        <p>Full-stack web application with React frontend, Node.js backend, MongoDB database, and Stripe payment integration.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="backend" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>RESTful API Service</h3>
+                        <p>Scalable REST API with Express.js, PostgreSQL, JWT authentication, and comprehensive API documentation.</p>
+                        <div class="project-tech">
+                            <span>Express</span><span>PostgreSQL</span><span>JWT</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="algorithms" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Algorithm Solutions</h3>
+                        <p>Collection of optimized algorithmic solutions in C++ and Python with complexity analysis and explanations.</p>
+                        <div class="project-tech">
+                            <span>C++</span><span>Python</span><span>Algorithms</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web" data-aos="fade-up">
+                    <div class="project-content">
+                        <h3>Task Management App</h3>
+                        <p>Real-time collaborative task management with Socket.io, React frontend, and Firebase backend.</p>
+                        <div class="project-tech">
+                            <span>React</span><span>Firebase</span><span>Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section bg-alt">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's work together</h3>
+                    <p>I'm open to exciting opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>salimshaikh50113@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Pune, India</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7758070320</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Salim Shaikh. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/latituded3420" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/salim-shaikh-a78267281" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
